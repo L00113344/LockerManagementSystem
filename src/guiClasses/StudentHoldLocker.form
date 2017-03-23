@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel3" min="-2" pref="180" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" pref="990" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="90" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel4" min="-2" pref="90" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jPanel3" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Image/lyit.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="48" style="3"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="                      Locker System"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" pref="207" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="679" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" pref="207" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="385" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" min="-2" pref="619" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="78" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jLabel5" min="-2" pref="78" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButton1" alignment="3" min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" pref="55" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="36" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Locker Hold Menu"/>
+              </Properties>
+            </Component>
+            <Container class="javax.swing.JPanel" name="jPanel4">
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jScrollPane6" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" pref="183" max="-2" attributes="0"/>
+                                  <EmptySpace pref="461" max="32767" attributes="0"/>
+                                  <Component id="jTextField1" min="-2" pref="272" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Component id="jScrollPane6" min="-2" pref="374" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel6" alignment="3" min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="jTextField1" alignment="3" pref="59" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JList" name="jList3">
+                      <Properties>
+                        <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                          <StringArray count="181">
+                            <StringItem index="0" value="Item 1"/>
+                            <StringItem index="1" value="Item 2"/>
+                            <StringItem index="2" value="Item 3"/>
+                            <StringItem index="3" value="Item 4"/>
+                            <StringItem index="4" value="Item 5"/>
+                            <StringItem index="5" value=" "/>
+                            <StringItem index="6" value=" "/>
+                            <StringItem index="7" value=" "/>
+                            <StringItem index="8" value=" "/>
+                            <StringItem index="9" value=" "/>
+                            <StringItem index="10" value=" "/>
+                            <StringItem index="11" value=" "/>
+                            <StringItem index="12" value=" "/>
+                            <StringItem index="13" value=" "/>
+                            <StringItem index="14" value=" "/>
+                            <StringItem index="15" value=" "/>
+                            <StringItem index="16" value=" "/>
+                            <StringItem index="17" value=" "/>
+                            <StringItem index="18" value=" "/>
+                            <StringItem index="19" value=" "/>
+                            <StringItem index="20" value=" "/>
+                            <StringItem index="21" value=" "/>
+                            <StringItem index="22" value=" "/>
+                            <StringItem index="23" value=" "/>
+                            <StringItem index="24" value=" "/>
+                            <StringItem index="25" value=" "/>
+                            <StringItem index="26" value=" "/>
+                            <StringItem index="27" value=" "/>
+                            <StringItem index="28" value=" "/>
+                            <StringItem index="29" value=" "/>
+                            <StringItem index="30" value=" "/>
+                            <StringItem index="31" value=" "/>
+                            <StringItem index="32" value=" "/>
+                            <StringItem index="33" value=" "/>
+                            <StringItem index="34" value=" "/>
+                            <StringItem index="35" value=" "/>
+                            <StringItem index="36" value=" "/>
+                            <StringItem index="37" value=" "/>
+                            <StringItem index="38" value=" "/>
+                            <StringItem index="39" value=" "/>
+                            <StringItem index="40" value=" "/>
+                            <StringItem index="41" value=" "/>
+                            <StringItem index="42" value=" "/>
+                            <StringItem index="43" value=" "/>
+                            <StringItem index="44" value=" "/>
+                            <StringItem index="45" value=" "/>
+                            <StringItem index="46" value=" "/>
+                            <StringItem index="47" value=" "/>
+                            <StringItem index="48" value=" "/>
+                            <StringItem index="49" value=" "/>
+                            <StringItem index="50" value=" "/>
+                            <StringItem index="51" value=" "/>
+                            <StringItem index="52" value=" "/>
+                            <StringItem index="53" value=" "/>
+                            <StringItem index="54" value=" "/>
+                            <StringItem index="55" value=" "/>
+                            <StringItem index="56" value=" "/>
+                            <StringItem index="57" value=" "/>
+                            <StringItem index="58" value=" "/>
+                            <StringItem index="59" value=" "/>
+                            <StringItem index="60" value=" "/>
+                            <StringItem index="61" value=" "/>
+                            <StringItem index="62" value=" "/>
+                            <StringItem index="63" value=" "/>
+                            <StringItem index="64" value=" "/>
+                            <StringItem index="65" value=" "/>
+                            <StringItem index="66" value=" "/>
+                            <StringItem index="67" value=" "/>
+                            <StringItem index="68" value=" "/>
+                            <StringItem index="69" value=" "/>
+                            <StringItem index="70" value=" "/>
+                            <StringItem index="71" value=" "/>
+                            <StringItem index="72" value=" "/>
+                            <StringItem index="73" value=" "/>
+                            <StringItem index="74" value=" "/>
+                            <StringItem index="75" value=" "/>
+                            <StringItem index="76" value=" "/>
+                            <StringItem index="77" value=" "/>
+                            <StringItem index="78" value=" "/>
+                            <StringItem index="79" value=" "/>
+                            <StringItem index="80" value=" "/>
+                            <StringItem index="81" value=" "/>
+                            <StringItem index="82" value=" "/>
+                            <StringItem index="83" value=" "/>
+                            <StringItem index="84" value=" "/>
+                            <StringItem index="85" value=" "/>
+                            <StringItem index="86" value=" "/>
+                            <StringItem index="87" value=" "/>
+                            <StringItem index="88" value=" "/>
+                            <StringItem index="89" value=" "/>
+                            <StringItem index="90" value=" "/>
+                            <StringItem index="91" value=" "/>
+                            <StringItem index="92" value=" "/>
+                            <StringItem index="93" value=" "/>
+                            <StringItem index="94" value=" "/>
+                            <StringItem index="95" value=" "/>
+                            <StringItem index="96" value=" "/>
+                            <StringItem index="97" value=" "/>
+                            <StringItem index="98" value=" "/>
+                            <StringItem index="99" value=" "/>
+                            <StringItem index="100" value=" "/>
+                            <StringItem index="101" value=" "/>
+                            <StringItem index="102" value=" "/>
+                            <StringItem index="103" value=" "/>
+                            <StringItem index="104" value=" "/>
+                            <StringItem index="105" value=" "/>
+                            <StringItem index="106" value=" "/>
+                            <StringItem index="107" value=" "/>
+                            <StringItem index="108" value=" "/>
+                            <StringItem index="109" value=" "/>
+                            <StringItem index="110" value=" "/>
+                            <StringItem index="111" value=" "/>
+                            <StringItem index="112" value=" "/>
+                            <StringItem index="113" value=" "/>
+                            <StringItem index="114" value=" "/>
+                            <StringItem index="115" value=" "/>
+                            <StringItem index="116" value=" "/>
+                            <StringItem index="117" value=" "/>
+                            <StringItem index="118" value=" "/>
+                            <StringItem index="119" value=" "/>
+                            <StringItem index="120" value=" "/>
+                            <StringItem index="121" value=" "/>
+                            <StringItem index="122" value=" "/>
+                            <StringItem index="123" value=" "/>
+                            <StringItem index="124" value=" "/>
+                            <StringItem index="125" value=" "/>
+                            <StringItem index="126" value=" "/>
+                            <StringItem index="127" value=" "/>
+                            <StringItem index="128" value=" "/>
+                            <StringItem index="129" value=" "/>
+                            <StringItem index="130" value=" "/>
+                            <StringItem index="131" value=" "/>
+                            <StringItem index="132" value=" "/>
+                            <StringItem index="133" value=" "/>
+                            <StringItem index="134" value=" "/>
+                            <StringItem index="135" value=" "/>
+                            <StringItem index="136" value=" "/>
+                            <StringItem index="137" value=" "/>
+                            <StringItem index="138" value=" "/>
+                            <StringItem index="139" value=" "/>
+                            <StringItem index="140" value=" "/>
+                            <StringItem index="141" value=" "/>
+                            <StringItem index="142" value=" "/>
+                            <StringItem index="143" value=" "/>
+                            <StringItem index="144" value=" "/>
+                            <StringItem index="145" value=" "/>
+                            <StringItem index="146" value=" "/>
+                            <StringItem index="147" value=" "/>
+                            <StringItem index="148" value=" "/>
+                            <StringItem index="149" value=" "/>
+                            <StringItem index="150" value=" "/>
+                            <StringItem index="151" value=" "/>
+                            <StringItem index="152" value=" "/>
+                            <StringItem index="153" value=" "/>
+                            <StringItem index="154" value=" "/>
+                            <StringItem index="155" value=" "/>
+                            <StringItem index="156" value=" "/>
+                            <StringItem index="157" value=" "/>
+                            <StringItem index="158" value=" "/>
+                            <StringItem index="159" value=" "/>
+                            <StringItem index="160" value=" "/>
+                            <StringItem index="161" value=" "/>
+                            <StringItem index="162" value=" "/>
+                            <StringItem index="163" value=" "/>
+                            <StringItem index="164" value=" "/>
+                            <StringItem index="165" value=" "/>
+                            <StringItem index="166" value=" "/>
+                            <StringItem index="167" value=" "/>
+                            <StringItem index="168" value=" "/>
+                            <StringItem index="169" value=" "/>
+                            <StringItem index="170" value=" "/>
+                            <StringItem index="171" value=" "/>
+                            <StringItem index="172" value=" "/>
+                            <StringItem index="173" value=" "/>
+                            <StringItem index="174" value=" "/>
+                            <StringItem index="175" value=" "/>
+                            <StringItem index="176" value=" "/>
+                            <StringItem index="177" value=" "/>
+                            <StringItem index="178" value=" "/>
+                            <StringItem index="179" value=" "/>
+                            <StringItem index="180" value="..."/>
+                          </StringArray>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                      </AuxValues>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JLabel" name="jLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Times New Roman" size="27" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Locker no."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="jTextField1">
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel7">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Locker no."/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel8">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Location"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel9">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Height"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="27" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Confirm"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Times New Roman" size="27" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cancel"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
